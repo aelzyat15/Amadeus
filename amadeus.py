@@ -15,7 +15,7 @@ print(aienv)
 #Telegram bot key
 tgenv = os.getenv('TELEGRAM_KEY')
 if tgenv == None:
-    tgkey = "Your Telegram Key"
+    tgkey = "5639966703:AAGDmDCoYl5ef8JKGvWmg41vhyYbgbvCNLI"
 else:
     tgkey = tgenv
 print(tgenv)
@@ -66,8 +66,8 @@ def start(bot, update):
         chat_log = None
         cache = None
         qcache = None
-        botname = 'Makise Kurisu'
-        username = 'thewickedkarma'
+        botname = 'Mido'
+        username = 'phy_gptbot'
         update.message.reply_text('Hi')
         return 
     else:
